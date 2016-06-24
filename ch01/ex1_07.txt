@@ -1,0 +1,10 @@
+When the source file ex1_07.cpp is compiled in linux using g++ it gives this errors:
+
+ex1_07.cpp:3:3: error: empty character constant
+ * ''cannot nest'' is considered source code,
+   ^
+ex1_07.cpp:3:16: error: empty character constant
+ * ''cannot nest'' is considered source code,
+                ^
+ex1_07.cpp:2:23: error: ‘cannot’ does not name a type
+ * comment pairs /* */ cannot nest.
