@@ -1,0 +1,4 @@
+std::cout << "/*";                      // LEGAL
+std::cout << "*/";                      // LEGAL
+std::cout << /* "*/" */;                // ILLEGAL missing quotation marks
+std::cout << /* "*/" /* "/*" */;        // LEGAL
