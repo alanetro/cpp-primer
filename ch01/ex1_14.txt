@@ -1,0 +1,2 @@
+The for statement is great when you know how many times the iteration will be executed, and is more clear for this intention.
+The while statement is excelent when you don't know how many times the iteration will execute, she is more obscure than the for statement. 
