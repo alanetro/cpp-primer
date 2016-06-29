@@ -1,8 +1,9 @@
 #include <iostream>
 
 void print_range(int low, int high){
-    for(int i = low; i <= high; ++i){
-        std::cout << i << std::endl;
+    while(low <= high) {
+        std::cout << low << std::endl;
+        ++low;
     }
 }
 
