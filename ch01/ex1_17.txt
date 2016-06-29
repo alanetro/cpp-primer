@@ -1,0 +1,2 @@
+A) If the values are all equals, it will be a infinite loop.
+B) The program will be useless, it will print all the values entered one by one.
